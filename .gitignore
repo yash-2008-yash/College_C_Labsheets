@@ -1,3 +1,7 @@
+*
+!*.c
+!.gitignore
+
 # Prerequisites
 *.d
 
