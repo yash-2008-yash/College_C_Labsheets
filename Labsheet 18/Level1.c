@@ -11,7 +11,7 @@ int main()
     fgets(string1, 100, stdin);
     string1[strcspn(string1, "\n")] = '\0';
 
-    printf("\nEnter second string : ");
+    printf("Enter second string : ");
     fgets(string2, 100, stdin);
     string2[strcspn(string2, "\n")] = '\0';
 
@@ -19,7 +19,6 @@ int main()
 
     printf("\nThe Concatenated string is \"%s\"", string1);
 
-    printf("\n");
-
+    printf("\n\n");
     return 0;
 }

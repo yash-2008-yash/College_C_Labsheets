@@ -1,4 +1,4 @@
-// C Program to input and display a string
+// C Program to input a string and display it
 
 #include <stdio.h>
 #include <string.h>
@@ -14,7 +14,6 @@ int main()
 
     printf("\nYou entered \"%s\"", string);
 
-    printf("\n");
-
+    printf("\n\n");
     return 0;
 }

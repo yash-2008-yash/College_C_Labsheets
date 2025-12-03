@@ -15,27 +15,21 @@ int main()
 
     file = fopen(filename, "r");
 
-    if (file == NULL)
-    {
+    if (file == NULL) {
         printf("\nError: Could not open file.");
 
         printf("\n\n");
         return 1;
     }
 
-    while ((ch = fgetc(file)) != EOF)
-    {
-        if (ch == '\n')
-        {
+    while ((ch = fgetc(file)) != EOF) {
+        if (ch == '\n') {
             lines++;
         }
-
-        if (isspace(ch))
-        {
+        if (isspace(ch)) {
             inWord = 0;
         }
-        else if (inWord == 0)
-        {
+        else if (inWord == 0) {
             inWord = 1;
             words++;
         }
@@ -43,11 +37,12 @@ int main()
 
     fclose(file);
 
-    if (words > 0)
+    if (words > 0){
         lines++;
+    }
 
     printf("\nTotal Lines : %d", lines);
-    printf("\nTotal Words : %d\n", words);
+    printf("\nTotal Words : %d", words);
 
     printf("\n\n");
     return 0;

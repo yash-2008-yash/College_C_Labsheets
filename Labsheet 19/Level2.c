@@ -12,15 +12,19 @@ int main()
     fgets(string1, 100, stdin);
     string1[strcspn(string1, "\n")] = '\0';
 
-    printf("\nEnter second string : ");
+    printf("Enter second string : ");
     fgets(string2, 100, stdin);
     string2[strcspn(string2, "\n")] = '\0';
 
     result = strcmp(string1, string2);
 
-    printf(result == 0 ? "\nBoth strings are equal" : "\nBoth strings are not equal.");
+    if (result == 0) {
+        printf("\nBoth strings are equal.");
+    }
+    else {
+        printf("\nBoth strings are equal.");
+    }
 
-    printf("\n");
-    
+    printf("\n\n");
     return 0;
 }

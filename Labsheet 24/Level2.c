@@ -19,8 +19,8 @@ union myUnion
 
 int main()
 {
-    printf("\nSize of Structure: %u bytes", sizeof(struct myStructure));
-    printf("\nSize of Union: %u bytes", sizeof(union myUnion));
+    printf("\nSize of Structure: %zu bytes", sizeof(struct myStructure));
+    printf("\nSize of Union: %zu bytes", sizeof(union myUnion));
 
     printf("\n\n");
     return 0;

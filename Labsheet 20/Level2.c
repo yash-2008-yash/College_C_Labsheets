@@ -10,9 +10,12 @@ int sum(int num1, int num2)
 int main()
 {
     int a, b;
+
     printf("\nEnter two numbers : ");
     scanf("%d %d", &a, &b);
+
     sum(a, b);
+    
     printf("\n\n");
     return 0;
 }

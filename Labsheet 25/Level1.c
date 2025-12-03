@@ -10,21 +10,20 @@ int main()
     file1 = fopen("source.txt", "r");
     file2 = fopen("copy.txt", "w");
 
-    if (file1 == NULL || file2 == NULL)
-    {
+    if (file1 == NULL || file2 == NULL) {
         printf("\nError opening file!");
         return 0;
     }
 
-    while ((character = fgetc(file1)) != EOF)
-    {
+    while ((character = fgetc(file1)) != EOF) {
         fputc(character, file2);
     }
 
-    printf("File copied successfully!");
+    printf("\nFile copied successfully!");
 
     fclose(file1);
     fclose(file2);
 
+    printf("\n\n");
     return 0;
 }
