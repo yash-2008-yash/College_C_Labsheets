@@ -49,6 +49,17 @@ void postOrder(struct Node *root) {
 
 // Main function
 int main() {
+
+  /*
+    Creating the binary tree
+
+        1
+       / \   
+      2   3 
+     / \   
+    4   5
+    
+  */
   struct Node *root = createNode(1);
 
   root->left = createNode(2);
