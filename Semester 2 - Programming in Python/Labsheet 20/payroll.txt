@@ -1,0 +1,14 @@
+EMPLOYEE PAYROLL DETAILS
+-------------------------
+Employee ID: 11
+Name: Yashwanth
+Basic Salary: 100000.0
+Allowances: 20000.0
+Net Salary: 120000.0
+-------------------------
+Employee ID: 283
+Name: Pradeesh
+Basic Salary: 50000.0
+Allowances: 10000.0
+Net Salary: 60000.0
+-------------------------
