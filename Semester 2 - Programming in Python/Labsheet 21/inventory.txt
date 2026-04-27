@@ -1,0 +1,9 @@
+--- PRODUCT INVENTORY DETAILS---
+Code: 1001
+Name: Unibic Chocolate Cookies
+Price: 100.0
+Quantity: 1
+Code: 1002
+Name: Kelloggs Muesli
+Price: 400.0
+Quantity: 2
