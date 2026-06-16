@@ -17,6 +17,6 @@ else:
     while i <= number:
         whileFactorial *= i
         i += 1
-        
+
     print(f"USING FOR LOOP: The factorial of {number} is {forFactorial}")
     print(f"USING WHILE LOOP: The factorial of {number} is {whileFactorial}")

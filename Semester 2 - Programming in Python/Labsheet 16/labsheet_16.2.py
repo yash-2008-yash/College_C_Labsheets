@@ -6,6 +6,7 @@
 
 library = {}
 
+
 def addBook():
     bookID = input("Enter the ID of the book: ")
     bookTitle = input("Enter the title of the book: ")
@@ -35,6 +36,7 @@ def addBook():
 
     print("Book added successfully!")
 
+
 def borrowBook():
     bookID = input("Enter the book ID to borrow: ")
 
@@ -46,6 +48,7 @@ def borrowBook():
 
     else:
         print("Book not found!")
+
 
 def displayBooks():
     if not library:
@@ -62,6 +65,7 @@ def displayBooks():
         print(f"Published Year: {details[3]}")
         print(f"Categories: {data["categories"]}")
         print(f"Borrow History: {data["history"]}")
+
 
 while True:
     print("\n------- LIBRARY MENU -------")

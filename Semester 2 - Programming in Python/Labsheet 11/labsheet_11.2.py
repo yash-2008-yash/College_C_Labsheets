@@ -1,18 +1,23 @@
 # Python program to use menu based function calls
 
+
 def addNumbers(a, b):
     return a + b
+
 
 def subtractNumbers(a, b):
     return a - b
 
+
 def multiplyNumbers(a, b):
     return a * b
+
 
 def divideNumbers(a, b):
     if b == 0:
         return "ERROR! Division by zero is not possible."
     return a / b
+
 
 while True:
     print("\n--- MENU ---")

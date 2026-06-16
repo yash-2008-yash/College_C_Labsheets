@@ -14,6 +14,7 @@ pygame.display.set_caption("Multiple Random Balls")
 # Colors
 BLACK = (0, 0, 0)
 
+
 # Ball class
 class Ball:
     def __init__(self, x, y, radius, color, dx, dy):
@@ -36,6 +37,7 @@ class Ball:
             self.dx = -self.dx
         if self.y - self.radius <= 0 or self.y + self.radius >= HEIGHT:
             self.dy = -self.dy
+
 
 # Generate multiple balls with random features
 balls = []

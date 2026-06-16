@@ -15,7 +15,7 @@ else:
         if number % i == 0:
             isPrime = False
             break
-    
+
     if isPrime:
         print(f"{number} is a prime number.")
     else:

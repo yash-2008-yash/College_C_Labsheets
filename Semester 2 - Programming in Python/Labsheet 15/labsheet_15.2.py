@@ -6,6 +6,7 @@
 
 students = {}  # Dictionary to store all student records
 
+
 def addStudent():
     name = input("Enter the student name: ")
     rollNumber = input("Enter the student's roll number: ")
@@ -27,6 +28,7 @@ def addStudent():
 
     students[rollNumber] = {"profile": profile, "marks": marks, "courses": courses}
 
+
 def displayStudents():
     for rollNumber, data in students.items():
         profile = data["profile"]
@@ -41,6 +43,7 @@ def displayStudents():
         print(f"Courses      : {courses}")
         print(f"Total        : {sum(marks)}")
         print(f"Average      : {sum(marks)/len(marks)}")
+
 
 while True:
     print("\n1.Add Student")

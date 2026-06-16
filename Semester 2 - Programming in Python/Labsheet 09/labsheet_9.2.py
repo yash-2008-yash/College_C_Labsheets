@@ -1,5 +1,6 @@
 # Python program to demonstrate binary search
 
+
 def BinarySearch(array, element):
     low = 0
     high = len(array) - 1
@@ -14,6 +15,7 @@ def BinarySearch(array, element):
         else:
             high = mid - 1
     return -1
+
 
 numbers = [12, 23, 34, 45, 56, 67, 78, 89, 90]
 print(f"List: {numbers}")

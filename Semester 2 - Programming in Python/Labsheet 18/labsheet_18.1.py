@@ -5,7 +5,7 @@ import string
 # Open the file to read its content
 with open("Labsheet 18/input.txt", "r") as file:
     content = file.read()
-    
+
 # Convert to lowercase
 content = content.lower()
 
@@ -20,13 +20,13 @@ words = content.split()
 wordCount = {}
 for word in words:
     if word in wordCount:
-      wordCount[word]+=1
+        wordCount[word] += 1
     else:
-      wordCount[word]=1
+        wordCount[word] = 1
 
 # Write results to output file
 with open("Labsheet 18/output.txt", "w") as file:
     for word, count in wordCount.items():
         file.write(f"{word}: {count}\n")
-        
+
 print("Word count results written to output.txt")

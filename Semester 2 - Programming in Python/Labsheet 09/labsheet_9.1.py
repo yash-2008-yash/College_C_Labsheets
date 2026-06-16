@@ -1,5 +1,6 @@
 # Python program to demonstrate bubble sorting
 
+
 def BubbleSort(array):
     n = len(array)
 
@@ -7,6 +8,7 @@ def BubbleSort(array):
         for j in range(n - i - 1):
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
+
 
 numbers = [64, 34, 25, 12, 22, 11, 90]
 print(f"Original List: {numbers}")

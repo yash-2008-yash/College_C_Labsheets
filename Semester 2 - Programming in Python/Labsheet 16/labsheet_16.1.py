@@ -2,12 +2,14 @@
 
 students = {}
 
+
 def addStudent():
     name = input("Enter the student name: ")
     marks = int(input("Enter the student's marks: "))
     students[name] = marks
 
     print("Student added successfully!")
+
 
 def updateStudent():
     name = input("Enter the student name to update: ")
@@ -22,6 +24,7 @@ def updateStudent():
     else:
         print("Student not found!")
 
+
 def deleteStudent():
     name = input("Enter the student name to delete: ")
 
@@ -33,6 +36,7 @@ def deleteStudent():
     else:
         print("Student not found!")
 
+
 def displayStudents():
     if not students:
         print("No student records available!")
@@ -40,6 +44,7 @@ def displayStudents():
         print("\n--- STUDENT RECORDS ---")
         for name, marks in students.items():
             print(f"{name} : {marks}")
+
 
 while True:
     print("\n1.Add Student")

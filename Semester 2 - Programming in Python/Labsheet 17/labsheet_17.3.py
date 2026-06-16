@@ -4,9 +4,9 @@
 # Find students enrolled in only one specific course (DIFFERENCE)
 # Find students enrolled in exactly one of two courses (SYMMETRIC DIFFERENCE)
 
-Computer = { "Yashwanth", "Roopesh", "Avinash", "Faraz" }
-Biology = { "Bharath", "Loknath", "Yashwanth", "Shreya" }
-Electronics = { "Yashwanth", "Prashanth", "Shreya", "Roopesh" }
+Computer = {"Yashwanth", "Roopesh", "Avinash", "Faraz"}
+Biology = {"Bharath", "Loknath", "Yashwanth", "Shreya"}
+Electronics = {"Yashwanth", "Prashanth", "Shreya", "Roopesh"}
 
 print(f"Computer Students: {Computer}")
 print(f"Biology Students: {Biology}")

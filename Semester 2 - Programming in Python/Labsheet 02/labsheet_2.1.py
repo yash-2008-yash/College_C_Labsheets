@@ -1,7 +1,8 @@
 # Python Program to implement graph using Matplotlib module
 
 import matplotlib
-matplotlib.use("TkAgg") # To view the graph
+
+matplotlib.use("TkAgg")  # To view the graph
 
 import matplotlib.pyplot as p
 

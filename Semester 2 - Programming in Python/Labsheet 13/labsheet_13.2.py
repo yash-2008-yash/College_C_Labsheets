@@ -1,10 +1,12 @@
 # Python program to accept student details, calculate total and average marks, determine PASS/FAIL and grade
 
+
 def getStudentDetails():
     name = input("Enter your name: ")
     rollNumber = input("Enter your roll number: ")
 
     return name, rollNumber
+
 
 def getMarks(n):
     marks = []
@@ -14,6 +16,7 @@ def getMarks(n):
         marks.append(mark)
 
     return marks
+
 
 def CalculateResults(marks):
     total = sum(marks)
@@ -37,6 +40,7 @@ def CalculateResults(marks):
 
     return total, average, grade, result
 
+
 def displayResults(name, rollNumber, total, average, grade, result):
     print("\n----- STUDENT RESULTS -----")
     print(f"Name          : {name}")
@@ -45,6 +49,7 @@ def displayResults(name, rollNumber, total, average, grade, result):
     print(f"Average marks : {average}")
     print(f"Grade         : {grade}")
     print(f"Result        : {result}")
+
 
 name, rollNumber = getStudentDetails()
 subjectsCount = int(input("Enter the number of subjects: "))
